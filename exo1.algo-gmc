@@ -1,0 +1,28 @@
+Algorithme element_distincts
+// déclaration des types
+
+// déclaration des prototypes des fonctions
+
+Lexique
+    serie1,serie2:tableau entier[6];
+    i,j:entier;
+    somme:entier;
+Début
+serie1:={2,8,3,1,6,4} ;
+serie2:={3,7,9,0,4,2};
+Pour i de 0 à serie1.lenght-1 Faire
+Écrire("les nombres qui composent le tableau de série1 :"serie1[i]);
+Pour j de 0 à serie2.lenght-1 Faire
+Écrire(serie2[i]);
+somme:=0
+Si (serie1[i].index== serie2[j].index) Alors
+
+    
+FinSi
+    
+FinPour
+    
+FinPour
+
+    
+Fin
